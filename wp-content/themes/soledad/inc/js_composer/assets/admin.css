@@ -1,0 +1,237 @@
+/***** Shortcode container ******/
+.wpb_penci_container .vc_controls .wpb_element_title {
+	font-size: 13px;
+	line-height: 13px;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	color: #131313;
+	font-weight: 600;
+	margin-left: 3px;
+	margin-right: -5px;
+}
+
+.wpb_penci_container .vc_controls .wpb_element_title img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-bottom: -9px;
+}
+
+.wpb_penci_container > .vc_controls > .column_move {
+	background-color: #fff;
+}
+
+.wpb_row_container > .wpb_vc_column_inner > .vc_controls {
+	text-align: center;
+	background: #fff;
+	width: 100%;
+	line-height: 1px;
+	padding: 2px;
+	height: 24px;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts {
+	height: 17px !important;
+	left: 55px !important;
+	overflow: inherit !important;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a {
+	position: relative;
+}
+
+.vc_controls-row .vc_control-row-layout:hover a.penci-hidden,
+.vc_controls-row .vc_row_layouts:hover a.penci-hidden {
+	display:none;
+}
+
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a.cell-13_23 i {
+	transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	top: 4px;
+	left: 2px;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:before,
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:after {
+	position: absolute;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1000000;
+	pointer-events: none;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	transition: 0.3s ease;
+	-webkit-transition-delay: 0ms;
+	-moz-transition-delay: 0ms;
+	transition-delay: 0ms;
+	left: 100%;
+	bottom: 50%;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:before {
+	content: '';
+	position: absolute;
+	background: transparent;
+	border: 6px solid transparent;
+	z-index: 1000001;
+	margin-bottom: 11px;
+	left: 8px;
+	border-top-color: #383838;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:after {
+	content: attr(data-hint);
+	background: #383838;
+	color: white;
+	padding: 8px 10px;
+	font-size: 12px;
+	line-height: 12px;
+	white-space: nowrap;
+	border-radius: 3px;
+	margin-bottom: 22px;
+	margin-left: -29px;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:hover:before, .wpb_penci_container .vc_controls-row .vc_row_layouts a:hover:after, .wpb_penci_container .vc_controls-row .vc_row_layouts a:focus:before, .wpb_penci_container .vc_controls-row .vc_row_layouts a:focus:after {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: translateY(8px);
+	-moz-transform: translateY(8px);
+	transform: translateY(8px);
+	z-index: 5;
+}
+
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:hover:before, .wpb_penci_container .vc_controls-row .vc_row_layouts a:hover:after {
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+}
+
+.wpb_penci_container .vc_controls-row .vc_control-row-layout a.vc_active,
+.wpb_penci_container .vc_controls-row .vc_control-row-layout a:hover,
+.wpb_penci_container .vc_controls-row .vc_row_layouts a.vc_active,
+.wpb_penci_container .vc_controls-row .vc_row_layouts a:hover {
+	background-color: #FBEED5;
+}
+
+.wpb_row_container > .wpb_penci_column > .vc_controls,
+.wpb_row_container > .wpb_penci_column_inner > .vc_controls {
+	text-align: center;
+	background: #fff;
+	width: 100%;
+	line-height: 1px;
+	padding: 2px;
+	height: 24px;
+}
+
+.wpb_row_container > .wpb_penci_column > .wpb_element_wrapper,
+.wpb_row_container > .wpb_penci_column_inner > .wpb_element_wrapper {
+	background: #fff;
+	padding: 1px 14px;
+}
+
+.wpb_row_container > .wpb_penci_column > .wpb_element_wrapper > .wpb_column_container,
+.wpb_row_container > .wpb_penci_column_inner > .wpb_element_wrapper > .wpb_column_container {
+	border: 5px solid #f5f5f5;
+}
+
+.wpb_row_container > .wpb_penci_column > .wpb_element_wrapper .wpb_penci_container_inner,
+.wpb_row_container > .wpb_penci_column > .wpb_element_wrapper .wpb_content_element,
+.wpb_row_container > .wpb_penci_column_inner > .wpb_element_wrapper .wpb_penci_container_inner,
+.wpb_row_container > .wpb_penci_column_inner > .wpb_element_wrapper .wpb_content_element {
+	border-bottom: 5px solid #f5f5f5;
+}
+
+.wpb_row_container > .wpb_penci_column > .vc_controls,
+.wpb_row_container > .wpb_penci_column_inner > .vc_controls {
+	text-align: center;
+	background: #fff;
+	width: 100%;
+	line-height: 1px;
+	padding: 2px;
+	height: 24px;
+}
+
+.wpb_penci_container {
+	margin-top: 5px;
+}
+
+.penci_container_controls .vc_row-hash-id {
+	position: inherit !important;
+	left: 2px !important;
+	margin-right: 2px;
+	display: block;
+	height: 15px;
+	overflow: hidden;
+	float: left;
+	padding: 5px;
+	text-align: left;
+	margin-left: 3px;
+	background: #e6e6e6;
+	border: 1px solid transparent;
+	border-radius: 2px 2px 0 0;
+	margin-top: 0;
+	color: #444;
+}
+
+.vc_inappropriate[data-element="penci_container"] + .vc_inappropriate[data-element="penci_container_inner"] {
+	display: block !important;
+}
+.wpb_penci_container .vc_controls-row .vc_row_layouts a.cell-12_14_14,
+.wpb_penci_container .vc_controls-row .vc_row_layouts a.cell-14_14_12 {
+	margin-left: 4px;
+}
+
+.vc_controls-row .vc_control-set-column .vc-composer-icon.vc-c-icon-1-4_1-4_1-2:before,
+.vc_controls-row .vc_control-set-column .vc-composer-icon.vc-c-icon-1-2_1-4_1-4:before {
+	content: '';
+	background-image: url(./icon-vc-layout.png);
+	width: 28px;
+	height: 14px;
+	display: block;
+	position: absolute;
+	top: -7px;
+	left: -13px;
+}
+
+.vc_controls-row .vc_control-set-column .vc-composer-icon.vc-c-icon-1-4_1-4_1-2:before {
+	background-position-x: 29px;
+}
+
+.vc_edit_form_elements .penci-number-input {
+	width: 5em;
+	margin-right: 5px;
+}
+
+.vc_edit_form_elements .penci-only-number-input {
+	width: 7em;
+	margin-right: 5px;
+}
+
+.vc_edit_form_elements .penci-number-suffix {
+	width: 5em;
+	height: 28px;
+	padding: 0 6px;
+	vertical-align: top;
+}
+.penci-param-heading-wrapper {
+	padding: 10px 15px;
+	font-size: 14px;
+	background: #e6e6e6;
+	color: #6C6C6C;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.penci-param-heading-wrapper .edit_form_line {
+	display: none;
+}

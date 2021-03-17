@@ -1,0 +1,37 @@
+/* Themify Customize Styling */
+#headerwrap {	background: none;
+	background-color: #222222; 
+}
+#headerwrap a {	
+	color: #cccccc; 
+}
+#headerwrap a:hover {	
+	color: #f6f6f6; 
+}
+body #site-logo a {		letter-spacing:2px;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #cccccc; 
+}
+#main-nav a:hover, #main-nav > li > a:hover {	
+	color: #f6f6f6; 
+}
+#footerwrap {	background: none;
+	background-color: #222222; 
+}
+#footer {	
+	color: #f6f6f6; 
+}
+#footer a {	
+	color: #f6f6f6; 
+}
+#footer a:hover {	
+	color: #999999; 
+}
+#pagewrap .back-top.back-top-float, .full-section-scrolling #footerwrap .back-top .arrow-up a, .footer-horizontal-left #footerwrap .back-top .arrow-up a, .footer-horizontal-right #footerwrap .back-top .arrow-up a, .footer-left-col #footerwrap .back-top .arrow-up a, .footer-right-col #footerwrap .back-top .arrow-up a, #footer .back-top .arrow-up a {	background: none;
+	background-color: #c7c6a9; 
+}
+#footerwrap .back-top a:before, #pagewrap .back-top.back-top-float {	
+	color: #000000; 
+}

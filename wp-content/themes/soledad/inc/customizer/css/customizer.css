@@ -1,0 +1,7 @@
+#customize-controls .customize-pane-child .customize-info .customize-panel-description{
+	display: block;
+	color: #444;
+}
+#customize-controls .customize-pane-child .customize-info .customize-panel-description a{
+	text-decoration: underline;
+}
